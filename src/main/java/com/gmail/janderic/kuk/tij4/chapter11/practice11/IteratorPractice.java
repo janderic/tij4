@@ -39,6 +39,6 @@ public class IteratorPractice {
 	int[] safe = safe(as);
 	Integer[] asp = {1,2,3,4};
 	Integer safe1 = safe(asp);
-
+//
     }
 }
