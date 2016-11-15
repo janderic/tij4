@@ -1,6 +1,7 @@
 package com.gmail.janderic.kuk.tij4.chapter14;
 
 import java.util.AbstractList;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Practice10 {
@@ -32,6 +33,9 @@ public class Practice10 {
     }
     
     public static void main(String[] args) {
-	type(List.class);
+//	type(List.class);
+	
+	boolean from = AbstractList.class.isAssignableFrom(ArrayList.class);
+	System.out.println(from);
     }
 }
